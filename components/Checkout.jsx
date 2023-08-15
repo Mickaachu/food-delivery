@@ -15,8 +15,8 @@ const Checkout = () => {
                 </h2>
                 <p className="text-gray-400 font-medium text-[18px]">When you done check out and get it  delivered with ease.</p>
             </div>
-            <div className="py-[50px] px-[30px]">
-                <Image src="/checkout.png" width={780} height={681} alt="log in to app"/>
+            <div className="py-[50px] px-[30px]  relative w-full max-w-[700px] h-[500px] mb-[100px]">
+                <Image src="/checkout.png" fill className="object-contain" alt="log in to app"/>
             </div>
         </div>
     </div>

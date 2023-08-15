@@ -18,8 +18,8 @@ const HowWorks = () => {
                 </h2>
                 <p className="text-gray-400 font-medium text-[18px]">An account is created with your email and a desired password</p>
             </div>
-            <div className="py-[50px] px-[30px]">
-                <Image src="/how-works.png" width={780} height={681} alt="log in to app"/>
+            <div className="py-[50px] px-[30px] relative w-full max-w-[700px] h-[500px]">
+                <Image src="/how-works.png" fill className="object-contain" alt="log in to app"/>
             </div>
         </div>
     </div>

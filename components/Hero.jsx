@@ -1,13 +1,13 @@
 const Hero = () => {
   return (
     <div
-        className="w-screen h-[100vh] 
+        className="w-screen min-h-[100vh] 
         md:bg-[url('/hero-bg.jpg')] bg-cover
         bg-no-repeat bg-center text-black md:text-white
         "
     >
-       <div className="flex justify-center flex-col gap-[24px] pt-[300px] md:pt-[100px]
-            items-center h-full w-screen md:backdrop-brightness-[.6] text-center">
+       <div className="flex justify-center flex-col gap-[24px] py-[300px] md:py-[100px]
+            items-center min-h-screen w-screen md:backdrop-brightness-[.6] text-center">
             <p className="font-bold text-[16px] md:text-[28px]">Food App</p>
             <h1 className="max-w-[700px] text-[36px] md:text-[58px] font-bold">
                 Why stay hungry when you can order form Bella Onojie

@@ -15,8 +15,8 @@ const Explore = () => {
                 </h2>
                 <p className="text-gray-400 font-medium text-[18px]">Shop for your favorite meals or drinks and enjoy while doing it.</p>
             </div>
-            <div className="py-[50px] px-[30px]">
-                <Image src="/explore.png" width={780} height={681} alt="delicious food for you"/>
+            <div className="py-[50px] px-[30px] relative w-full max-w-[700px] h-[500px]">
+                <Image src="/explore.png" fill className="object-contain" alt="log in to app"/>
             </div>
         </div>
     </div>
